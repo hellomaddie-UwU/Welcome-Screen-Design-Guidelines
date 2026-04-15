@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+}
+
+/*Containers*/
+.section-container {
+    padding: 40px 8%;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+.row > .col,
+.row > [class*="col-"] {
+    padding: 0;
+}
+
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+.v-stack {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Typography*/
+.md-text {font-size: 14px;}
+.sm-text {font-size: 12px;}
+
+/*Color*/
+.color-block {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
