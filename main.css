@@ -8,6 +8,18 @@ html, body {
     font-family: 'Inter', sans-serif;
 }
 
+:root {
+    /*Typography*/
+    --primary-blue: #000;
+    --secondary-blue: #000;
+    --body-text: #000;
+    
+    /*gradient colors*/
+    --left01: #000;
+    --middle01: #000;
+    --right01: #000;
+}
+
 /*Containers*/
 .section-container {
     padding: 40px 8%;
